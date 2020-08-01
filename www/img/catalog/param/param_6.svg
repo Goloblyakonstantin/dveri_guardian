@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Moho 13.0.2 build 610 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Frame_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720px" height="720px">
+<g id="Layer_1">
+<path fill="none" stroke="#00883a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" d="M 216.295 246.840 C 216.286 246.841 118.605 263.326 118.596 263.328 C 118.596 263.348 118.596 466.547 118.596 466.567 C 118.605 466.569 216.285 480.171 216.295 480.173 C 216.309 480.190 358.869 653.786 358.883 653.803 C 358.883 653.745 358.883 75.586 358.883 75.528 C 358.869 75.545 216.307 246.821 216.295 246.840 "/>
+<path fill="none" stroke="#00883a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" d="M 424.088 295.506 C 455.413 347.130 453.989 385.940 424.088 433.292 "/>
+<path fill="none" stroke="#00883a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" d="M 475.211 231.559 C 535.613 331.101 532.867 405.934 475.211 497.239 "/>
+<path fill="none" stroke="#00883a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" d="M 514.616 142.078 C 615.704 308.672 611.109 433.911 514.616 586.720 "/>
+</g>
+</svg>
