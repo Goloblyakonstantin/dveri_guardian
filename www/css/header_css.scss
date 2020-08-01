@@ -1,2 +1,78 @@
 
 @import "fonts_css.css";
+
+$calc_header_height:60px;
+
+$calc_header_side:100px;
+
+$calc_header_nav:600px;
+
+header
+{
+  width: 100%;
+  height: $calc_header_height;
+  menu
+  {
+    height: $calc_header_height;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: $calc_header_side 1fr $calc_header_side;
+    a
+    {
+      height: $calc_header_height;
+      img
+      {
+        height: $calc_header_height;
+      }
+    }
+    nav
+    {
+      height: $calc_header_height;
+      width: $calc_header_nav;
+      justify-self:center;
+      text-align: center;
+      ul
+      {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        li:hover ul
+        {
+          display: grid;
+        }
+        li
+        {
+          position: relative;
+          display: grid;
+          a
+          {
+            display: grid;
+            height: $calc_header_height;
+            align-self: center;
+            p
+            {
+              align-self: center;
+            }
+          }
+          ul
+          {
+            position: absolute;
+            height: 200%;
+            width: 100%;
+            padding-top: $calc_header_height;
+            grid-template-columns: 1fr;
+            display: none;
+            z-index: 9;
+            li
+            {
+              width: 100%;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+}
