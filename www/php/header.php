@@ -1,6 +1,6 @@
 <header>
   <menu>
-    <img src="img/logo/logo_menu.svg" alt="лого в меню">
+    <a href=""><img src="img/logo/logo_menu.svg" alt="лого в меню"></a>
     <nav>
       <ul>
         <li><a href=""><p>каталог дверей</p></a></li>
